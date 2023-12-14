@@ -1,3 +1,6 @@
+/* Objetivo: Construir uma função capaz de receber 2 números y verificar qual é o maior. Retornar e gerar um alert com o texto: "O número X é maior que Y" para quando os números forem diferentes,respeitando a ordem de quemé a maior que o outro, ou "O número X é igual a Y" para quando os números foremiguais.
+Usar os recursos: prompt, alert, if/else, return e function*/
+
 function compararNumeros(num1, num2) {
     if (num1 > num2) {
         alert("O número " + num1 + " é maior que " + num2);
@@ -17,3 +20,4 @@ var numero2 = parseFloat(prompt("Digite o segundo número:"));
 
 var resultado = compararNumeros(numero1, numero2);
 console.log("O número maior (ou null se forem iguais) é:", resultado);
+
